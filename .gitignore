@@ -2,6 +2,7 @@
 list.txt
 __pycache__/
 legacy/sortuniq.py
+asks.db
 
 # Windows image file caches
 Thumbs.db
