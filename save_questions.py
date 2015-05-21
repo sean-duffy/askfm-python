@@ -17,7 +17,7 @@ if(len(sys.argv)==0):
 username = sys.argv[1]
 user = getUser(username, 0.1)
 
-print 'Scraping complete, saving results.'
+print('Scraping complete, saving results.')
 
 for answer_block in user['answers']:
     query_string = 'insert or ignore into asks values (?, ?, ?, ?, ?)'
