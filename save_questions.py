@@ -15,7 +15,7 @@ if(len(sys.argv)==0):
     exit(0)
 
 username = sys.argv[1]
-user = getUser(username)
+user = getUser(username, 0.1)
 
 print 'Scraping complete, saving results.'
 
